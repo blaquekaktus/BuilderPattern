@@ -3,6 +3,5 @@ public interface RobotBuilder {
     public void buildTorso();
     public void buildArms();
     public void buildLegs();
-
     public Robot getRobot();
 }

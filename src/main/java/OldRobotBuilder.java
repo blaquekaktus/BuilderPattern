@@ -10,7 +10,7 @@ public class OldRobotBuilder implements RobotBuilder{
      */
     @Override
     public void buildHead() {
-        robot.setRobotHead("Tinhead");
+        robot.setRobotHead("Tin Head");
     }
 
     /**
@@ -33,7 +33,7 @@ public class OldRobotBuilder implements RobotBuilder{
      *
      */
    public void buildLegs() {
-        robot.setRobotLegs("Roller blade Legs");
+        robot.setRobotLegs("Roller Blade Legs");
     }
 
     /**
@@ -41,6 +41,6 @@ public class OldRobotBuilder implements RobotBuilder{
      */
     @Override
     public Robot getRobot() {
-        return null;
+        return this.robot;
     }
 }
